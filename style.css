@@ -1,0 +1,233 @@
+/* CSS Document */
+* {
+     font-family:"Helvetica", sans-serif;
+		}
+body {
+	background-color: white;
+	margin:0px;
+}
+
+p {
+	font-size: .75em;
+}
+
+h2{
+color:#ed1163;
+text-align:left;
+margin-left:74%;
+margin-top:%;
+font-size:2em;
+}
+
+h3{
+color:#666;
+text-align:left;
+font-size:1.5em;
+line-height:140%;
+margin-top:0;
+}
+/* navigation */
+ul, ol {
+	font-size: .75em;
+}
+
+nav {
+    clear:both;
+    width:100%;
+    font-size:1.3em;
+    text-align:right;
+    margin-top:-3.15%;
+    margin-left:-5%;
+}
+
+nav ul {
+    margin-bottom:2%;
+    list-style-type:none;
+}
+
+nav li {
+    width:30%;
+    padding:1%;
+    display:inline;
+}
+
+nav li a:link, nav li a:visited{
+    color:#ed1163;
+    text-decoration:none;
+    padding:1%;
+}
+
+nav li a:hover {
+    color: #666;
+}
+
+a:link, a:visited{
+text-decoration:none;
+color:#ed1163;
+font-size: .75em;
+}
+
+a:hover{
+color: #666;
+}
+/* Positioning */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header {
+    float:left;
+	width: 100%;
+    border-bottom: 2px solid gray;
+    margin-top: 5%;
+}
+
+.logo{
+    margin-left:5%;
+}
+
+/* projects*/
+.hide {
+    width:70%;
+	float:left;
+    margin-left:13.5%;
+	padding:3%;
+    display:none;
+}
+
+.hide img{
+float:left;
+display:inline;
+padding-bottom:5%;
+}
+
+.hide a{
+margin-left:2.5%;
+}
+
+.main {
+    width:72.5%;
+    margin-top:2%;
+    margin-left:13%;
+    margin-bottom:2%;
+    float:left;
+}
+
+.thumbnail {
+float:left;
+width:200px;
+height:200px;
+margin:1%;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+    position: relative;
+    text-align:center;
+    float: left;
+    display:inline;
+    color: white;
+}
+.box p {
+    position: absolute;
+    top: -4.25%;
+    width: 101%;
+    height: 101%;
+	z-index: 5;
+    background-color: #ed1163;
+    color: #FFF;
+	text-transform: uppercase;
+	opacity: 0;
+    filter:alpha(opacity=0);
+    transition: all 0.75s ease 0s;
+	-webkit-transition: all 0.75s ease 0s;      }
+
+/* Text inside box */
+.box .text {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    font-size:2em;
+}
+/* On a:hover starts transition */
+.box a:hover p {
+	opacity: 1;
+    filter:alpha(opacity=100);
+}
+
+.description {
+float:right;
+display:inline;
+width:24%;
+padding:2%;
+margin-top:-2%;
+}
+
+/*contact page*/
+.contact{
+    width:69%;
+    margin-left:15%;
+    margin-top:3%;
+    float:left;
+    line-height:120%;
+    padding:2%;
+}
+
+.contact ul, ol {
+	font-size: .75em;
+    line-height:200%;
+    padding-bottom:3%;
+}
+
+.left{
+    float:left;
+    width:19%;
+    padding:3%;
+    margin-top:-4%;
+}
+
+/*about page*/
+.about{
+    width:54%;
+    margin-left:12%;
+    margin-top:-1.5%;
+    float:left;
+    line-height:120%;
+    padding-bottom:3%;
+}
+
+.about a, .sidebar a{
+    font-size: 1em;
+}
+
+.sidebar{
+    width:15%;
+    float:right;
+    margin-right:13%;
+    border-left: 1px dashed gray;
+    margin-top:-3.5%;
+    padding:2%;
+    line-height:120%;
+}
+
+footer {
+	width: 100%;
+	clear: both;
+	text-align: center;
+    border-top: 2px solid gray;
+}
+
+/* Styles */
+img {
+	max-width: 100%;
+
+.pink{
+color:#ed1163;
+font-size:2em;
+}
